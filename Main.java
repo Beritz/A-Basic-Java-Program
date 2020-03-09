@@ -11,7 +11,7 @@ public class Main {
 	{
 		System.out.println("S No.\tS Name\t\tAvg Marks\tGrade");   
 		for (int i=0; i<students.size(); i++) {
-			System.out.println(students.get(i).getS_no()+"\t"+students.get(i).getS_name()+"\t"+students.get(i).getAvg()+"\t"+students.get(i).getGrade());
+			System.out.println(students.get(i).getS_no()+"\t"+students.get(i).getS_name()+"\t\t"+students.get(i).getAvg()+"\t"+students.get(i).getGrade());
 		}
 	}
 	
